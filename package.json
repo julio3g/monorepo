@@ -1,0 +1,15 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "server/*",
+      "web/*",
+      "desktop/*"
+    ]
+  },
+  "author": "Julio Cesar Orso <juliocesar.orso@gmail.com>",
+  "license": "MIT"
+}
